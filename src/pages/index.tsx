@@ -81,7 +81,7 @@ function Triangle(props) {
 
 const Home: NextPage = () => {
   return (
-    <Canvas orthographic camera={{ zoom: 100 }}>
+    <Canvas orthographic camera={{ zoom: 100 }} style={{ height: "99vh" }}>
       <color attach="background" args={["#000"]} />
       <Scene />
     </Canvas>
