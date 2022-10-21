@@ -66,7 +66,7 @@ export const Reflect = forwardRef(
       bounce: number;
       far?: number;
     },
-    fRef: Ref<unknown> | undefined
+    fRef
   ) => {
     bounce = (bounce || 1) + 1;
 
